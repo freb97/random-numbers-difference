@@ -1,6 +1,6 @@
 # Plotting the difference of random generated numbers
 
-This repository is a short explanation of what happens when you plot the difference between each number of a large set 
+This repository is a short example of what happens when you plot the difference between each number of a large set 
 of random generated numbers
 
 ## Dependencies
