@@ -7,6 +7,7 @@ quantity = 1000000
 # The maximum value of the random generated numbers
 maxValue = 10000000
 
+
 print("Generating sorted array of " + str(quantity) + " random numbers between 0 and " + str(maxValue) + "...\n")
 
 randomNumbers = np.random.randint(maxValue, size=quantity)
@@ -40,5 +41,7 @@ n, bins, patches = plt.hist(difference, bins=len(counts), color='skyblue', alpha
 
 maxFrequency = n.max()
 plt.ylim(ymax=np.ceil(maxFrequency / 10) * 12 if maxFrequency % 10 else maxFrequency + 10)
+
+plt.show()
 
 print("Done.\n\n")
