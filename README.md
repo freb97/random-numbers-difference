@@ -21,6 +21,17 @@ Download this repository and install the package dependencies via [pip](https://
 2. Open the notebook file ```Notebook.ipynb```
 
 ### Options
+
+Altering the variables described below changes the plotted graph.
+
+#### difference.py
+
 You can find two variables in the main function of the ```difference.py``` file:
-- quantity - You can change set quantity of numbers to generate here
+- quantity - You can change the quantity of numbers to generate here
 - maximum_value - You can change the maximum generated value of the numbers here
+
+#### uniform.py
+
+You can find two variables in the main function of the ```uniform.py``` file:
+- quantity - You can change the quantity of numbers to generate here
+- mu - You can change the mathematical symbol mu's value in the formula

@@ -26,15 +26,15 @@ def generate_sorted_random_numbers(max_value, size):
     Parameters
     ----------
     max_value : int
-        The maximum value of the generated numbers.
+        The maximum value of the generated numbers
 
     size : int
-        The quantity of numbers to generate, i.e. the size of the array.
+        The quantity of numbers to generate, i.e. the size of the array
 
     Returns
     -------
     int[]
-        The array of generated random numbers.
+        The array of generated random numbers
     """
 
     print("Generating sorted array of " + str(size) + " random numbers between 0 and " + str(max_value) + "...\n")
@@ -54,12 +54,12 @@ def generate_difference(numbers):
     Parameters
     ----------
     numbers : int[]
-        The array of numbers to iterate.
+        The array of numbers to iterate
 
     Returns
     -------
     int[]
-        The array of differences of the given numbers.
+        The array of differences of the given numbers
     """
 
     print("Generating array of the difference of each number to their predecessor...\n")
@@ -81,7 +81,7 @@ def plot_histogram(data):
     Parameters
     ----------
     data : int[]
-        The array of numbers to plot.
+        The array of numbers to plot
     """
 
     print("Plotting generated data...\n\n")
@@ -109,14 +109,13 @@ def main():
     """
     Main function.
 
-    Called on script run
+    Called on script execution
     """
 
     maximum_value = 10000000
     quantity = 1000000
 
     random_numbers = generate_sorted_random_numbers(maximum_value, quantity)
-
     numbers_difference = generate_difference(random_numbers)
 
     plot_histogram(numbers_difference)
