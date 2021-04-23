@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """
 difference.py
 
@@ -13,6 +15,8 @@ This file can also be imported as a module and contains the following functions:
     * generate_difference - Generates an array of the difference of numbers in a given array
     * plot_histogram - Plots a histogram
 """
+
+__author__ = "Frederik Bußmann"
 
 import matplotlib.pyplot as plt
 

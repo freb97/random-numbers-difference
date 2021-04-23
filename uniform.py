@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 """
 uniform.py
 
@@ -14,6 +16,8 @@ This file can also be imported as a module and contains the following functions:
     * plot_histogram - Plots a histogram
     * examine_data - Examines a data array
 """
+
+__author__ = "Frederik Bußmann"
 
 import matplotlib.pyplot as plt
 
